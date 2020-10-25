@@ -1,0 +1,137 @@
+.mynavl {
+ line-height: 30px;
+ background-color: #eeeeee;
+ height: 300px;
+ width: 30%;
+ float: left;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    
+ 
+ }
+
+ .mysection {
+ width: 40%;
+ height: 300px;
+ background-color: #eeeeee;
+ float: left;
+     border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    
+ 
+ }
+
+.mysection label {
+  cursor: default;
+    line-height: 50px;
+  
+    display: block;
+}
+.mynavr {
+	display:block;
+ background-color :#eeeeee;
+ height: 300px;
+ width: 30%;
+ float: right;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    
+    
+
+ }
+ 
+.tabela{
+    
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    
+    
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+    width: 800px;
+    
+    
+}
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+th{
+    background-color:darkgrey;
+    color: black;
+    text-align:left;
+}
+
+.nothin{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    float: right;
+    
+}
+
+#bottom{
+    display:none;
+    width: 100%;
+    height: 400px;
+    background-color: #eee;
+   
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    
+   
+   
+    
+}
+
+input{
+    display: block;
+    margin-left: 10px;
+}
+label{
+    padding:10px;
+}
+
+button {
+	
+	background-color:chartreuse;
+	border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:150px;
+  height:25px;
+}
+
+#addnew{
+    height: 30px;
+    background-color:blue;
+    color: white;
+    width: 150px;
+    font-size: 14px;
+}
+
+
+
+#cancelbtn{
+    background-color: azure;
+    color: red;
+}
+
+span{
+    color:blue; 
+    cursor: pointer;
+}
+
+.hidden {
+   display: none !important;
+}
+
+

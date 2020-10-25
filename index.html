@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+
+<html>
+<link href="style.css" rel="stylesheet">
+    <script src="app.js"></script>
+<head>
+
+
+</head>
+
+<body>
+    <div class="tabela">
+  <table class="center" id="glavnatb">
+  <tr>
+    <th>Full Name</th>
+    <th>email</th> 
+    <th>Full address</th>
+      <th>Card#</th>
+      <th>CvC</th>
+      <th>     </th>
+  </tr>
+  <tr>
+    <td>Ahmed Sakic</td>
+    <td>sakicahmed@yahoo.com</td>
+    <td>Tuzla </td>
+      <td>xxxx-xx-xxx</td>
+      <td>*****</td>
+      <td><span onclick="edit(this);var glb=this;">edit</span><span onclick="deleted(this)">   delete</span>     </td>
+  </tr>
+  <tr>
+    <td>Mizra Jackson</td>
+    <td>mizra123@gmail.com</td>
+    <td>Tuzla 94</td>
+       <td>xxxx</td>
+      <td>*****</td>
+      <td><span onclick="edit(this)">edit</span><span onclick="deleted(this)">   delete</span> 
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>jd123@gmail.com</td>
+    <td>Doe 80</td>
+       <td>xxxx</td>
+      <td>*****</td>
+      <td> <span onclick="edit(this)">edit</span><span onclick="deleted(this)">   delete</span>    </td>
+  </tr>
+</table>
+    
+    </div>
+    <div class="nothin">
+    <button type="button" onclick="myFunction()" id="addnew">Add new</button>
+    
+    </div>
+
+    <div id="bottom">
+    
+    <div class="mynavl">
+ <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br>
+        
+         <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br>
+    
+ </div>
+
+ <div class="mysection">
+     
+     <label>Adress:</label>
+     <label>City:</label>
+     <label>Postal code:</label>
+     
+ 
+ 
+ 
+ </div>
+
+ <div class="mynavr">
+     
+     <label for="cardn">Card number:</label><br>
+     <input type="text" id="cardn" name="cardn"><br>
+     
+     <label for="CvC">CvC:</label><br>
+     <input type="text" id="CvC" name="CvC"><br>
+     
+     <button type="button"id="cancelbtn" onclick="cancel()">Cancel</button>
+     <button type="button" onclick="insertData()">Save</button>
+     
+     
+ 
+  
+ </div>
+    
+    
+    
+    </div>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
